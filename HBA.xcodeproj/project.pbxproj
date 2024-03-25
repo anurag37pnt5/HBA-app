@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0831EA992BB2200B009CA4FC /* ZBallersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EA982BB2200B009CA4FC /* ZBallersDetailView.swift */; };
+		0831EA9B2BB228F1009CA4FC /* GoodShotBhaiyasDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EA9A2BB228F1009CA4FC /* GoodShotBhaiyasDetailView.swift */; };
+		0831EA9D2BB3422C009CA4FC /* DunkinHanumansDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EA9C2BB3422C009CA4FC /* DunkinHanumansDetailView.swift */; };
+		0831EA9F2BB34365009CA4FC /* FlyingNimbusDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EA9E2BB34365009CA4FC /* FlyingNimbusDetailView.swift */; };
+		0831EAA12BB3454B009CA4FC /* SnowLionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EAA02BB3454B009CA4FC /* SnowLionsDetailView.swift */; };
+		0831EAA32BB3459D009CA4FC /* TeamTibetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EAA22BB3459D009CA4FC /* TeamTibetDetailView.swift */; };
+		0831EAA52BB34901009CA4FC /* KathmanduKingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EAA42BB34901009CA4FC /* KathmanduKingsDetailView.swift */; };
+		0831EAA72BB355D9009CA4FC /* HoliCrossoverDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EAA62BB355D9009CA4FC /* HoliCrossoverDetailView.swift */; };
+		0831EAA92BB4B550009CA4FC /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0831EAA82BB4B550009CA4FC /* NewsView.swift */; };
+		083550222BC722A6009EE423 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 083550212BC722A6009EE423 /* FirebaseAnalytics */; };
+		083550242BC722A6009EE423 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 083550232BC722A6009EE423 /* FirebaseAnalyticsSwift */; };
+		083550262BC722A6009EE423 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 083550252BC722A6009EE423 /* FirebaseAuth */; };
+		083550282BC722A6009EE423 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 083550272BC722A6009EE423 /* FirebaseCrashlytics */; };
+		0835502A2BC722A6009EE423 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 083550292BC722A6009EE423 /* FirebaseDatabase */; };
+		0835502C2BC722A6009EE423 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0835502B2BC722A6009EE423 /* FirebaseDatabaseSwift */; };
+		083550F42BD0083B009EE423 /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083550F32BD0083A009EE423 /* RulesView.swift */; };
 		08461A9E2BAE79F900A739BA /* HBAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08461A9D2BAE79F900A739BA /* HBAApp.swift */; };
 		08461AA02BAE79F900A739BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08461A9F2BAE79F900A739BA /* ContentView.swift */; };
 		08461AA22BAE79FB00A739BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08461AA12BAE79FB00A739BA /* Assets.xcassets */; };
 		08461AA52BAE79FB00A739BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08461AA42BAE79FB00A739BA /* Preview Assets.xcassets */; };
+		08461AAC2BAE83E000A739BA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08461AAB2BAE83E000A739BA /* HomeView.swift */; };
+		08461AB22BB0ABB200A739BA /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08461AB12BB0ABB200A739BA /* ScheduleView.swift */; };
+		08461AB42BB0ACFE00A739BA /* TeamsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08461AB32BB0ACFE00A739BA /* TeamsView.swift */; };
+		087C4A442BB5EF94008FE252 /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = 087C4A432BB5EF94008FE252 /* GoogleService-Info (2).plist */; };
+		087C4A462BB650D2008FE252 /* PlayerProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C4A452BB650D2008FE252 /* PlayerProfileView.swift */; };
+		087C4A482BB65233008FE252 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C4A472BB65233008FE252 /* Common.swift */; };
+		087C4A4A2BB8802C008FE252 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C4A492BB8802C008FE252 /* StatsView.swift */; };
+		087C4A4C2BBC5E8A008FE252 /* StandingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087C4A4B2BBC5E8A008FE252 /* StandingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0831EA982BB2200B009CA4FC /* ZBallersDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBallersDetailView.swift; sourceTree = "<group>"; };
+		0831EA9A2BB228F1009CA4FC /* GoodShotBhaiyasDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodShotBhaiyasDetailView.swift; sourceTree = "<group>"; };
+		0831EA9C2BB3422C009CA4FC /* DunkinHanumansDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DunkinHanumansDetailView.swift; sourceTree = "<group>"; };
+		0831EA9E2BB34365009CA4FC /* FlyingNimbusDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingNimbusDetailView.swift; sourceTree = "<group>"; };
+		0831EAA02BB3454B009CA4FC /* SnowLionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowLionsDetailView.swift; sourceTree = "<group>"; };
+		0831EAA22BB3459D009CA4FC /* TeamTibetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTibetDetailView.swift; sourceTree = "<group>"; };
+		0831EAA42BB34901009CA4FC /* KathmanduKingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KathmanduKingsDetailView.swift; sourceTree = "<group>"; };
+		0831EAA62BB355D9009CA4FC /* HoliCrossoverDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoliCrossoverDetailView.swift; sourceTree = "<group>"; };
+		0831EAA82BB4B550009CA4FC /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		083550F32BD0083A009EE423 /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
 		08461A9A2BAE79F900A739BA /* HBA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08461A9D2BAE79F900A739BA /* HBAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBAApp.swift; sourceTree = "<group>"; };
 		08461A9F2BAE79F900A739BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		08461AA12BAE79FB00A739BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08461AA42BAE79FB00A739BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		08461AAB2BAE83E000A739BA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		08461AB12BB0ABB200A739BA /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		08461AB32BB0ACFE00A739BA /* TeamsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsView.swift; sourceTree = "<group>"; };
+		087C4A432BB5EF94008FE252 /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		087C4A452BB650D2008FE252 /* PlayerProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProfileView.swift; sourceTree = "<group>"; };
+		087C4A472BB65233008FE252 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		087C4A492BB8802C008FE252 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		087C4A4B2BBC5E8A008FE252 /* StandingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +68,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0835502C2BC722A6009EE423 /* FirebaseDatabaseSwift in Frameworks */,
+				0835502A2BC722A6009EE423 /* FirebaseDatabase in Frameworks */,
+				083550242BC722A6009EE423 /* FirebaseAnalyticsSwift in Frameworks */,
+				083550282BC722A6009EE423 /* FirebaseCrashlytics in Frameworks */,
+				083550262BC722A6009EE423 /* FirebaseAuth in Frameworks */,
+				083550222BC722A6009EE423 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +100,25 @@
 			isa = PBXGroup;
 			children = (
 				08461A9D2BAE79F900A739BA /* HBAApp.swift */,
+				087C4A472BB65233008FE252 /* Common.swift */,
 				08461A9F2BAE79F900A739BA /* ContentView.swift */,
+				08461AAB2BAE83E000A739BA /* HomeView.swift */,
+				08461AB12BB0ABB200A739BA /* ScheduleView.swift */,
+				0831EAA82BB4B550009CA4FC /* NewsView.swift */,
+				083550F32BD0083A009EE423 /* RulesView.swift */,
+				08461AB32BB0ACFE00A739BA /* TeamsView.swift */,
+				087C4A492BB8802C008FE252 /* StatsView.swift */,
+				087C4A4B2BBC5E8A008FE252 /* StandingsView.swift */,
+				0831EA982BB2200B009CA4FC /* ZBallersDetailView.swift */,
+				0831EA9C2BB3422C009CA4FC /* DunkinHanumansDetailView.swift */,
+				0831EA9E2BB34365009CA4FC /* FlyingNimbusDetailView.swift */,
+				0831EA9A2BB228F1009CA4FC /* GoodShotBhaiyasDetailView.swift */,
+				0831EAA02BB3454B009CA4FC /* SnowLionsDetailView.swift */,
+				0831EAA22BB3459D009CA4FC /* TeamTibetDetailView.swift */,
+				0831EAA42BB34901009CA4FC /* KathmanduKingsDetailView.swift */,
+				0831EAA62BB355D9009CA4FC /* HoliCrossoverDetailView.swift */,
+				087C4A452BB650D2008FE252 /* PlayerProfileView.swift */,
+				087C4A432BB5EF94008FE252 /* GoogleService-Info (2).plist */,
 				08461AA12BAE79FB00A739BA /* Assets.xcassets */,
 				08461AA32BAE79FB00A739BA /* Preview Content */,
 			);
@@ -83,6 +149,14 @@
 			dependencies = (
 			);
 			name = HBA;
+			packageProductDependencies = (
+				083550212BC722A6009EE423 /* FirebaseAnalytics */,
+				083550232BC722A6009EE423 /* FirebaseAnalyticsSwift */,
+				083550252BC722A6009EE423 /* FirebaseAuth */,
+				083550272BC722A6009EE423 /* FirebaseCrashlytics */,
+				083550292BC722A6009EE423 /* FirebaseDatabase */,
+				0835502B2BC722A6009EE423 /* FirebaseDatabaseSwift */,
+			);
 			productName = HBA;
 			productReference = 08461A9A2BAE79F900A739BA /* HBA.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +185,9 @@
 				Base,
 			);
 			mainGroup = 08461A912BAE79F900A739BA;
+			packageReferences = (
+				083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 08461A9B2BAE79F900A739BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08461AA52BAE79FB00A739BA /* Preview Assets.xcassets in Resources */,
+				087C4A442BB5EF94008FE252 /* GoogleService-Info (2).plist in Resources */,
 				08461AA22BAE79FB00A739BA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +215,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087C4A482BB65233008FE252 /* Common.swift in Sources */,
+				0831EAA12BB3454B009CA4FC /* SnowLionsDetailView.swift in Sources */,
+				0831EA9D2BB3422C009CA4FC /* DunkinHanumansDetailView.swift in Sources */,
+				0831EA9B2BB228F1009CA4FC /* GoodShotBhaiyasDetailView.swift in Sources */,
+				0831EAA92BB4B550009CA4FC /* NewsView.swift in Sources */,
+				08461AB22BB0ABB200A739BA /* ScheduleView.swift in Sources */,
+				087C4A462BB650D2008FE252 /* PlayerProfileView.swift in Sources */,
+				0831EAA32BB3459D009CA4FC /* TeamTibetDetailView.swift in Sources */,
+				0831EAA72BB355D9009CA4FC /* HoliCrossoverDetailView.swift in Sources */,
+				08461AAC2BAE83E000A739BA /* HomeView.swift in Sources */,
 				08461AA02BAE79F900A739BA /* ContentView.swift in Sources */,
+				0831EA992BB2200B009CA4FC /* ZBallersDetailView.swift in Sources */,
+				087C4A4A2BB8802C008FE252 /* StatsView.swift in Sources */,
+				083550F42BD0083B009EE423 /* RulesView.swift in Sources */,
 				08461A9E2BAE79F900A739BA /* HBAApp.swift in Sources */,
+				087C4A4C2BBC5E8A008FE252 /* StandingsView.swift in Sources */,
+				08461AB42BB0ACFE00A739BA /* TeamsView.swift in Sources */,
+				0831EA9F2BB34365009CA4FC /* FlyingNimbusDetailView.swift in Sources */,
+				0831EAA52BB34901009CA4FC /* KathmanduKingsDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +439,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		083550212BC722A6009EE423 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		083550232BC722A6009EE423 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		083550252BC722A6009EE423 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		083550272BC722A6009EE423 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		083550292BC722A6009EE423 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0835502B2BC722A6009EE423 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 083550202BC722A6009EE423 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 08461A922BAE79F900A739BA /* Project object */;
 }

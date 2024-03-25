@@ -9,13 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: HomeView()) {
+                    VStack {
+                        Image("HBAbackground")
+                            .resizable()
+                            
+                            .frame(height: 250)
+                            .clipShape(RoundedRectangle(cornerRadius: 50))
+                        
+                        Text("HBA SEASON 2")
+                            .font(.headline)
+                            .foregroundColor(.blue)
+                    }
+                    .padding()
+                }
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
